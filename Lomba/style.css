@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+/* .menu ul li {
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(50, 56, 68);
+}
+
+.menu ul li a:hover {
+    color: blue;
+} */
+
+
+.about {
+    text-align: center;
+    padding: 30px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-weight: 300;
+    letter-spacing: 10pt;
+}
+
+.about h2 {
+    font-size: 55pt;
+    font-weight: 400;
+}
+
+.about p {
+    padding-top: 15px;
+    word-spacing: 3pt;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.about-me h2 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+.about-me p {
+    font-size: 11pt;
+}
+
+.about-me a {
+    text-decoration: none;
+}
+
+
+.judul span {
+    font-size: small;
+}
+
+.skema {
+    text-align: center;
+}
+
+.skema h2 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+.skema a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.skema a:hover {
+    text-decoration: underline;
+}
+
+.container-card {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    gap: 25px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.container-card img {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    font-weight: 500;
+    font-size: 13pt;
+    padding-bottom: 15px;
+}
+
+.card p {
+    font-size: 10pt;
+    word-spacing: 1pt;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    background: #1A4167;
+    padding: 10px 30px;
+    color: white;
+    font-size: small;
+    word-spacing: 2pt;
+}
+
+.card a:hover {
+    background: #102439;
+}
+
+.logo {
+    /* margin: 50px auto; */
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+}
+
+
+.gabung1 {
+    padding: 30px 150px;
+}
+
+.gabung1 h2 {
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.gabung1 p {
+    font-size: 11pt;
+    word-spacing: 1.5pt;
+}
+
+.gabung1 a {
+    font-size: 10pt;
+    color: rgb(73, 73, 73);
+}
+
+.gabung-content {
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.gabung {
+    padding: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    background: #010334;
+    color: white;
+}
+
+.gabung a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+
+.gabung a:hover {
+    background: #B49AFE;
+    border: none;
+}
+
+.gabung h1 {
+    font-weight: 400;
+    word-spacing: 2.5pt;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 50%;
+}
+
+.banner-content {
+    padding-top: 70px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 70px;
+    background: #000123;
+    gap: 30px;
+}
+
+footer hr {
+    background: white;
+}
+
+footer h3 {
+    color: #B49AFE;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    word-spacing: 1.5pt;
+    padding: 5px 0;
+    color: white;
+    font-size: small;
+    font-weight: 350;
+}
+
+footer p {
+    color: white;
+    font-weight: 300;
+    font-size: small;
+    text-align: center;
+}
+
+
+@media all and (max-width: 680px) {
+
+    .carousel-inner {
+        padding-top: 100px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        padding: 7px;
+    }
+
+
+    .about {
+        padding-top: 0;
+    }
+
+    .about h1 {
+        font-size: 12pt;
+        letter-spacing: 5pt;
+    }
+
+    .about h2 {
+        font-size: 35pt;
+    }
+
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+
+    .container-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .gabung1 {
+        padding: 20px;
+    }
+
+
+    .gabung {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .banner {
+        padding-top: 50px;
+    }
+
+    .banner-content {
+        padding: 0;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px 25px;
+
+    }
+
+
+}
